@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/A-web-series-hub/static/css/main.849a65af.chunk.css",
+    "main.js": "/A-web-series-hub/static/js/main.0ec980dc.chunk.js",
+    "main.js.map": "/A-web-series-hub/static/js/main.0ec980dc.chunk.js.map",
+    "runtime-main.js": "/A-web-series-hub/static/js/runtime-main.39f0df2b.js",
+    "runtime-main.js.map": "/A-web-series-hub/static/js/runtime-main.39f0df2b.js.map",
+    "static/js/2.fd8d8682.chunk.js": "/A-web-series-hub/static/js/2.fd8d8682.chunk.js",
+    "static/js/2.fd8d8682.chunk.js.map": "/A-web-series-hub/static/js/2.fd8d8682.chunk.js.map",
+    "index.html": "/A-web-series-hub/index.html",
+    "static/css/main.849a65af.chunk.css.map": "/A-web-series-hub/static/css/main.849a65af.chunk.css.map",
+    "static/js/2.fd8d8682.chunk.js.LICENSE.txt": "/A-web-series-hub/static/js/2.fd8d8682.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39f0df2b.js",
+    "static/js/2.fd8d8682.chunk.js",
+    "static/css/main.849a65af.chunk.css",
+    "static/js/main.0ec980dc.chunk.js"
+  ]
+}
