@@ -1,17 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDom from "react-dom";
+import "./index.css";
+import Sdata from "./Sdata";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function cards(value){
+  console.log(value);
+  return(
+    <Card imgsrc={value.imgsrc}
+     sname={value.name} 
+     title={value.title}
+     link={value.link} />
+  );
+}
+function Card(props){
+  console.log(props);
+  return(
+<div className="block">
+  <div className="card">
+    <img src={props.imgsrc} alt="mypic" className="card_image"/>
+    <div className="card_info">
+      <span className="card__category">{props.title}</span>
+      <h3 className="card_title">{props.sname}</h3>
+      <a href={props.link} target="_blank">
+        <button color="white">WATCH NOW</button>
+      </a>
+    </div>
+  </div>
+</div>);
+}
+
+
+ReactDom.render(<>
+<h1 className="heading">India's top series</h1>
+<hr></hr>
+{Sdata.map(cards)}</>
+ ,document.getElementById('root'));
